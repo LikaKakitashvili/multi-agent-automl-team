@@ -1,0 +1,15 @@
+# Secrets — never commit
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Ephemeral training scripts (deliverables in output/ are kept)
+output/training_runs/
